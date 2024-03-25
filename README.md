@@ -6,3 +6,8 @@ Previously, in factories, like sugar and cement, there used to persons sittingne
 The dashboard was created using Thingsboard - An opensource IoT platform through MQTT Client protocol. The dashboard was realtime updating as soon as the count increases in the hardware system it shows the updates in dashboard as well.
 
 There are 4 Silo devices (production devices attached) and 1 godown device (goddown device attached). All these devices data is shown on dashboard with LifeTimeCount and TodaysCount of each device.
+
+### Preview of Dashboard
+
+![WhatsApp Image 2024-03-25 at 8 23 52 PM](https://github.com/tanishpophale53/PCMS/assets/71888416/4b20ef50-993f-4024-bc76-c0832ea32d98)
+![WhatsApp Image 2024-03-25 at 8 23 52 PM (1)](https://github.com/tanishpophale53/PCMS/assets/71888416/a7dcd506-d64b-4971-9c62-5c1c908d492a)
