@@ -1,11 +1,11 @@
 # Pulse Count Monitoing System
 
 
-Previously, in factories, like sugar and cement, there used to persons sittingnear the fast moving conveyor to count the no of cement and sugar bags generated or moved to godown from production. But there can be some error in counting and some companies were demanding that no of bags generated were not exactly going to the godown, their was mismatch. So, it led to develop a system particularly hardware devices to auttomatically capture the count of number of bags generated and went to godown. So, Hixaa Technologies Provate Limited built a hardware system and the part of showing the realtime data of devices (silo for production and godown for godown) on the IOT dashboard was done by me.
+Previously, in factories, like sugar and cement, there used to persons sitting near the fast moving conveyor to count the no of cement and sugar bags generating or moving towards godown from production. But there can be some error in counting and some companies were demanding that no of bags generated during production were not exactly going to the godown, their was mismatch. So, it led to develop a automated system to capture the count of number of bags moving on fast moving conveyor and going to godown. So, Hixaa Technologies Provate Limited built a hardware system and the part of displaying the realtime data of devices (silo for production and godown for godown) on the IOT dashboard was done by me.
 
-The dashboard was created using Thingsboard - An opensource IoT platform through MQTT Client protocol. The dashboard was realtime updating as soon as the count increases in the hardware system it shows the updates in dashboard as well.
+The dashboard was created using Thingsboard - An opensource IoT platform through MQTT Client protocol. There are 4 Silo devices (production devices attached) and 1 godown device (goddown device attached). Each device (both silo and godown) was having raspberry pi zero 2W fitted in it which was connected to wifi and this was sending the realtime data generated to the sql database and then the thingsbard server was fetching the data from the database and showing the data of devices like LifeTimeCount of that device and TodaysCount of that device on the dashboard.
 
-There are 4 Silo devices (production devices attached) and 1 godown device (goddown device attached). All these devices data is shown on dashboard with LifeTimeCount and TodaysCount of each device.
+
 
 ### Preview of Dashboard
 
