@@ -1,4 +1,4 @@
-# Pulse Count Monitoing System
+# Pulse Count Monitoring System
 
 
 Previously, in factories, like sugar and cement, there used to sit a person near the fast moving conveyor to count the no of cement and sugar bags generating or moving towards godown from production. But there can be some human error in counting and some companies were demanding that no of bags generated during production were not exactly going to the godown, their was mismatch. So, it led to develop a automated system to capture the count of number of bags moving on fast moving conveyor and going to godown. So, Hixaa Technologies Private Limited built a hardware system and the part of displaying the realtime data of devices (silo for production and godown for godown) on the IOT dashboard was done by me.
