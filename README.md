@@ -8,9 +8,9 @@ The dashboard was created using Thingsboard - An opensource IoT platform through
 By analyzing the database, more parameters are created in order to show on dashboard related to silo and godown devices like TotalSiloCount, TotalGodownCount, TodaysSiloCount, TodaysGodownCount, TodaysDifference, TotalDifference, Total Silo, TotalGodown, TotalSilo/Godown.
 
 
-#### Glimpse of Dashboard
+## Glimpse of Dashboard
 
-### Parameters Abbrevation 
+#### Parameters Abbrevation 
 
 Total Silo - Total Silo devices
 TotalGodown - Total Godown devices
