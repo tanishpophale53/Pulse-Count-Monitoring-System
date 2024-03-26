@@ -10,7 +10,14 @@ By analyzing the database, more parameters are created in order to show on dashb
 
 ## Glimpse of Dashboard
 
-#### Parameters Abbrevation 
+### Parameters Abbrevation 
+
+
+![WhatsApp Image 2024-03-25 at 8 23 52 PM](https://github.com/tanishpophale53/PCMS/assets/71888416/4b20ef50-993f-4024-bc76-c0832ea32d98)
+
+
+![WhatsApp Image 2024-03-25 at 8 23 52 PM (1)](https://github.com/tanishpophale53/PCMS/assets/71888416/a7dcd506-d64b-4971-9c62-5c1c908d492a)
+
 
 Total Silo - Total Silo devices
 TotalGodown - Total Godown devices
@@ -24,9 +31,3 @@ TotalDifference - difference between TotalSiloCount and TotalGodownCount
 TodaysSiloCount - sum of count of today of all silo devices
 TodaysGodownCount - sum of count of today of all godown devices
 TodaysDifference - difference between TodaysSiloCount and TodaysGodownCount
-
-
-![WhatsApp Image 2024-03-25 at 8 23 52 PM](https://github.com/tanishpophale53/PCMS/assets/71888416/4b20ef50-993f-4024-bc76-c0832ea32d98)
-
-
-![WhatsApp Image 2024-03-25 at 8 23 52 PM (1)](https://github.com/tanishpophale53/PCMS/assets/71888416/a7dcd506-d64b-4971-9c62-5c1c908d492a)
