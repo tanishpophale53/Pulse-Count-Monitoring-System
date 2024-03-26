@@ -5,8 +5,12 @@ Previously, in factories, like sugar and cement, there used to sit a person near
 
 The dashboard was created using Thingsboard - An opensource IoT platform through MQTT Client protocol. There are 4 Silo devices (production devices) and 1 godown device. Each device (both silo and godown) is having raspberry pi zero 2W fitted in it which is connected to wifi and will send cientId, deviceID and count i.e LifeTimeCount as parameters. These three parameters will initially get store into sql database. The thingsboard server will check if the database has changed or not. If changed, then it will immediately update the entry of that device on the dashboard in realtime. Fetching of data is done using python and MySQL.
 
+By analyzing the database, more parameters are created in order to show on dashboard related to silo and godown devices like TotalSiloCount, TotalGodownCount, TodaysSiloCount, TodaysGodownCount, LifeTimeSiloCount, LifeTimeGodownCount
+
 
 ### Glimpse of Dashboard
+
+
 
 ![WhatsApp Image 2024-03-25 at 8 23 52 PM](https://github.com/tanishpophale53/PCMS/assets/71888416/4b20ef50-993f-4024-bc76-c0832ea32d98)
 
