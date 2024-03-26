@@ -1,12 +1,12 @@
 # Pulse Count Monitoing System
 
 
-Previously, in factories, like sugar and cement, there used to persons sitting near the fast moving conveyor to count the no of cement and sugar bags generating or moving towards godown from production. But there can be some error in counting and some companies were demanding that no of bags generated during production were not exactly going to the godown, their was mismatch. So, it led to develop a automated system to capture the count of number of bags moving on fast moving conveyor and going to godown. So, Hixaa Technologies Provate Limited built a hardware system and the part of displaying the realtime data of devices (silo for production and godown for godown) on the IOT dashboard was done by me.
+Previously, in factories, like sugar and cement, there used to sit a person near the fast moving conveyor to count the no of cement and sugar bags generating or moving towards godown from production. But there can be some human error in counting and some companies were demanding that no of bags generated during production were not exactly going to the godown, their was mismatch. So, it led to develop a automated system to capture the count of number of bags moving on fast moving conveyor and going to godown. So, Hixaa Technologies Private Limited built a hardware system and the part of displaying the realtime data of devices (silo for production and godown for godown) on the IOT dashboard was done by me.
 
-The dashboard was created using Thingsboard - An opensource IoT platform through MQTT Client protocol. There are 4 Silo devices (production devices attached) and 1 godown device (goddown device attached). Each device (both silo and godown) is having raspberry pi zero 2W fitted in it which is connected to wifi and will send cientId, deviceID and count i.e LifeTimeCount as parameters. These three parameters will initially get store into sql database. The thingsboard server will check if the database has changed or not. If changed, then it will immediately update the entry of that device on the dashboard in realtime.
+The dashboard was created using Thingsboard - An opensource IoT platform through MQTT Client protocol. There are 4 Silo devices (production devices) and 1 godown device. Each device (both silo and godown) is having raspberry pi zero 2W fitted in it which is connected to wifi and will send cientId, deviceID and count i.e LifeTimeCount as parameters. These three parameters will initially get store into sql database. The thingsboard server will check if the database has changed or not. If changed, then it will immediately update the entry of that device on the dashboard in realtime. Fetching of data is done using python and MySQL.
 
 
-### Preview of Dashboard
+### Glimpse of Dashboard
 
 ![WhatsApp Image 2024-03-25 at 8 23 52 PM](https://github.com/tanishpophale53/PCMS/assets/71888416/4b20ef50-993f-4024-bc76-c0832ea32d98)
 
